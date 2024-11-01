@@ -75,3 +75,60 @@ console.log(NaN !== NaN);
 </details>
 
 **[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**3. What will be the output**
+```js
+let a = { name: "Alice" };
+let b = [1, 2, 3];
+let c = a + b;
+console.log(c);
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : [object Object]1,2,3</li>
+<li><b>Reason</b> : The object gets converted to "[object Object]", and the array gets converted to "1,2,3".</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**4. What will be the output**
+```js
+let a = 5;
+let b = {};
+let c = a - b;
+console.log(c);
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : NaN</li>
+<li><b>Reason</b> : The output is NaN because the object is converted to 0, resulting in 5 - 0, which is 5.</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**5. What will be the output**
+```js
+console.log(null == undefined);
+console.log(null === undefined);
+console.log(null == null);
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : true,false,true</li>
+<li><b>Reason</b> : 
+null == undefined is true because they are considered equal.
+null === undefined is false because they are of different types.
+null == null is true.
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
