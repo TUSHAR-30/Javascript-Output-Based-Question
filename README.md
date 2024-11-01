@@ -8,10 +8,10 @@
     everytime.(EVEN IF WE DO COMPARISON OF NAN WITH NAN , WE WILL GET FALSE )
   </li>
   <li>if any of operand is object or array then they will be converted into primitive(number or string)</li>
+  <li> arithmetic + operator </li>
 
 <ul>
-  <li> arithmetic + operator </li>
-  <li>// if any of the operand is string then the + operator will concatenate both the operands.</li>
+  <li>if any of the operand is string then the + operator will concatenate both the operands.</li>
   <li>else the addition will be done and for this the operand will be first converted into numbers and then addition will take place.</li>
 </ul>
 </ul>
