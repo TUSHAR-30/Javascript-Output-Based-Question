@@ -132,3 +132,41 @@ null == null is true.
 </details>
 
 **[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**6. What will be the output**
+```js
+let a = 2;
+let b = "2";
+let c = a + b - a;
+console.log(c);
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : 20</li>
+<li><b>Reason</b> : a + b becomes 2 + "2", resulting in "22" (string concatenation).
+Then, "22" - a becomes "22" - 2, which coerces the string back to a number, yielding 20.
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**7. What will be the output**
+```js
+console.log(typeof (5 + "5"));
+console.log(typeof (5 - "5"));
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : string,number</li>
+<li><b>Reason</b> :5 + "5" results in the string "55", so typeof is string.
+5 - "5" coerces the string to a number, resulting in 0, so typeof is number.
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
