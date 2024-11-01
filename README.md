@@ -55,6 +55,6 @@
 	</ul>
 	</details>
 
-	**[:top: Scroll to Top](#javascript-output-based-interview-questions)**
+	**[Scroll to Top](#javascript-output-based-interview-questions)**
 
  ---
