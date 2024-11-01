@@ -40,7 +40,7 @@
 </ul>
 </ul>
 
-
+---
 **1. What will be the output**
 	```js
 	let arr = [1, 2, 3, 4, 5, -6, 7];
@@ -56,3 +56,5 @@
 	</details>
 
 	**[:top: Scroll to Top](#javascript-output-based-interview-questions)**
+
+ ---
