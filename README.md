@@ -56,4 +56,4 @@ console.log(arr);
 </ul>
 </details>
 
-**[Scroll to Top](#Javascript Output Based Question)**
+**[Scroll to Top](#Javascript-Output-Based-Question)**
