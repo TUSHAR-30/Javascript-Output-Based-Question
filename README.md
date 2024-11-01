@@ -1,6 +1,7 @@
 # Javascript Output Based Question
-<ul>
-  <li># if undefined tries to convert itself into number then it will converted into NaN(Not a number).</li>
+ <ul>
+   
+ # <li>if undefined tries to convert itself into number then it will converted into NaN(Not a number).</li>
   <li>
     As the comparison operator return true or false . If we do comparison of NaN with anyone then we will get false everytime.(EVEN IF WE DO COMPARISON OF NAN WITH NAN , WE WILL GET FALSE )
   </li>
