@@ -1,6 +1,12 @@
+<style>
+  .demo{
+    font-size:50px
+  }
+</style>
+
 # Javascript Output Based Question
 <ul>
-  <li>
+  <li class="demo">
     if undefined tries to convert itself into number then it will converted into NaN(Not a number).
   </li>
   <li>
