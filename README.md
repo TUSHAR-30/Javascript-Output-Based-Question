@@ -43,16 +43,17 @@
 ---
 **1. What will be the output**
 ```js
-let arr = [1, 2, 3, 4, 5, -6, 7];
-arr.length = 0;
-console.log(arr);
+let a = undefined;
+let b = 10;
+let c = a + b;
+console.log(c);
 ```
 
 <details>
 <summary><b>View Answer</b></summary>
 <ul>	
-<li><b>Output</b> : [ ]</li>
-<li><b>Reason</b> : The length of the array has been set to 0, so the array becomes empty.</li>
+<li><b>Output</b> : NaN</li>
+<li><b>Reason</b> : The output is NaN because adding undefined and 10 results in NaN</li>
 </ul>
 </details>
 
