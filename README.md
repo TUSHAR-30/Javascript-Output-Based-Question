@@ -1,4 +1,8 @@
 # Javascript Output Based Question
+```
+hello world
+ello
+```
 
  <ul>
   
