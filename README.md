@@ -1,18 +1,21 @@
 # Javascript-Output-Based-Question
-<h3>
-//if undefined tries to convert itself into number then it will converted into NaN(Not a number).
-</h3>
+<ul>
+  <li>
+    if undefined tries to convert itself into number then it will converted into NaN(Not a number).
+  </li>
+  <li>
+    As the comparison operator return true or false . If we do comparison of NaN with anyone then we will get false       
+    everytime.(EVEN IF WE DO COMPARISON OF NAN WITH NAN , WE WILL GET FALSE )
+  </li>
+  <li>if any of operand is object or array then they will be converted into primitive(number or string)</li>
+</ul>
 
-
-//As the comparison operator return true or false . If we do comparison of NaN with anyone then we will get false everytime.(EVEN IF WE DO COMPARISON OF NAN WITH NAN , WE WILL GET FALSE )
-
-
-// if any of operand is object or array then they will be converted into primitive(number or string)
-
-
-// arithmetic + operator
-// if any of the operand is string then the + operator will concatenate both the operands.
-// else the addition will be done and for this the operand will be first converted into numbers and then addition will take place.
+<ul>
+  <li> arithmetic + operator </li>
+  <li>// if any of the operand is string then the + operator will concatenate both the operands.</li>
+  <li>else the addition will be done and for this the operand will be first converted into numbers and then addition will take place.</li>
+</ul>
+</ul>
 
 
 //arithmetic - operator
