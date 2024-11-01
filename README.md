@@ -58,3 +58,20 @@ console.log(c);
 </details>
 
 **[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**2. What will be the output**
+```js
+console.log(NaN == NaN);
+console.log(NaN === NaN);
+console.log(NaN !== NaN);
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : false,false,false</li>
+<li><b>Reason</b> : All comparisons involving NaN return false.</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
