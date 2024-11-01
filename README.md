@@ -8,7 +8,6 @@
     everytime.(EVEN IF WE DO COMPARISON OF NAN WITH NAN , WE WILL GET FALSE )
   </li>
   <li>if any of operand is object or array then they will be converted into primitive(number or string)</li>
-</ul>
 
 <ul>
   <li> arithmetic + operator </li>
