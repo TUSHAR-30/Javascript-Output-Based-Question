@@ -52,12 +52,12 @@ arr.length = 0;
 console.log(arr);
 ```
 
-	<details>
-		<summary><b>View Answer</b></summary>
-	<ul>	
-		<li><b>Output</b> : [ ]</li>
-		<li><b>Reason</b> : The length of the array has been set to 0, so the array becomes empty.</li>
-	</ul>
-	</details>
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : [ ]</li>
+<li><b>Reason</b> : The length of the array has been set to 0, so the array becomes empty.</li>
+</ul>
+</details>
 
-	**[Scroll to Top](#javascript-output-based-interview-questions)**
+**[Scroll to Top](#javascript-output-based-interview-questions)**
