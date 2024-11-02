@@ -59,9 +59,10 @@ Example: true == 1 → true because true is converted to 1.
 5. If one operand is an object and the other is a primitive (number, string, etc.):
 JavaScript attempts to convert the object to a primitive using the object’s .valueOf() or .toString() methods.
 After converting the object to a primitive, JavaScript applies the comparison.
-Example: [1] == 1 → true because [1] is converted to "1", which then converts to 1.
+Example1: [1]=="1" ->true because [1] is converted to "1" .
+Example2: [1] == 1 → true because [1] is converted to "1", which then converts to 1.
 
-6. Special Case for NaN:
+7. Special Case for NaN:
 NaN is never equal to anything, including itself.
 Example: NaN == NaN → false.
 </ul>
