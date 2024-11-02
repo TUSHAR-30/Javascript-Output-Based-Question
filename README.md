@@ -112,6 +112,13 @@ console.log(NaN !== NaN);
 </ul>
 </details>
 
+<details>
+ <summary>Weird things of JavaScript</summary>
+ <ul>
+  <li>The Boolean converstion of string which has only spaces is true and type conversion of  empty string is false.But if these both strings are converted into numbers then they both are converted to 0. For the empty string it is obvious but for the string with spaces it is a weird thing that why did it gets converted to 0 </li>
+ </ul>
+</details>
+
 **[Scroll to Top](#Javascript-Output-Based-Question)**
 
 **3. What will be the output**
