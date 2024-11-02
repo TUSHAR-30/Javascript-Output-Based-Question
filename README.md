@@ -273,3 +273,29 @@ console.log(user[firstName])
 </details>
 
 **[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**13. What will be the output**
+```js
+function multiply(a,b=1){
+ console.log(a*b)
+}
+multiply(5,4);
+multiply(5);
+multiply(5,null);
+multiply(5,"");
+multiply(5,"  ");
+multiply(5,"hello");
+multiply(5,false);
+multiply(5,undefined);
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : 20,5,0,0,0,NaN,0,5</li>
+<li><b>Reason</b> The default value will only be taken if we pass undefined or if we didn't pass the argument.In other cases multiplication will happen after type conversion
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
