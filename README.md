@@ -252,7 +252,7 @@ console.log(user[firstName])
 
 **[Scroll to Top](#Javascript-Output-Based-Question)**
 
-**11. What will be the output**
+**12. What will be the output**
 ```js
 let firstName="myName"
 const user={
