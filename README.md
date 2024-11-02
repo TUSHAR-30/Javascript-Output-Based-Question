@@ -99,7 +99,7 @@ console.log(c);
 <summary><b>View Answer</b></summary>
 <ul>	
 <li><b>Output</b> : NaN</li>
-<li><b>Reason</b> : The output is NaN because adding undefined and 10 results in NaN</li>
+<li><b>Reason</b> : Here as none of the operand is string so the + will do addition here and for this addition to take place it will make both the operands of same type i.e number type.Here,undefined will be converted into NaN and any computation with NaN yields in NaN.</li>
 </ul>
 </details>
 
@@ -116,7 +116,7 @@ console.log(NaN !== NaN);
 <summary><b>View Answer</b></summary>
 <ul>	
 <li><b>Output</b> : false,false,false</li>
-<li><b>Reason</b> : All comparisons involving NaN return false.</li>
+<li><b>Reason</b> : Any comparison of NaN results in false.</li>
 </ul>
 </details>
 
@@ -134,7 +134,7 @@ console.log(c);
 <summary><b>View Answer</b></summary>
 <ul>	
 <li><b>Output</b> : [object Object]1,2,3</li>
-<li><b>Reason</b> : The object gets converted to "[object Object]", and the array gets converted to "1,2,3".</li>
+<li><b>Reason</b> : The object gets converted to "[object Object]", and the array gets converted to "1,2,3".And after type conversion as anyone of the operand is in string format then concatenation will take place.</li>
 </ul>
 </details>
 
@@ -152,7 +152,7 @@ console.log(c);
 <summary><b>View Answer</b></summary>
 <ul>	
 <li><b>Output</b> : NaN</li>
-<li><b>Reason</b> : The output is NaN because the object is converted to 0, resulting in 5 - 0, which is 5.</li>
+<li><b>Reason</b> : JavaScript  tries .toString() on {}, which results in the string "[object Object]".and When JavaScript attempts to convert "[object Object]" to a number, it fails and results in NaN (Not a Number).And finally Any arithmetic operation involving NaN results in NaN.</li>
 </ul>
 </details>
 
