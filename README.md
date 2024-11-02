@@ -42,6 +42,14 @@
 </ul>
 </ul>
 </details>
+
+<details>
+ <summary>Statement vs Expression</summary>
+ <ul>
+  <li>Expression:-We can store the result of Expression in a variable.example:-Ternary operator,Function Expression,Function Calling,Operator based expressions ,Array forEach Loop.</li>
+  <li>Statement:-We can not store the result of Statement in a variable and if we try to do this we will get Error.examples:-IfElse statement,for loop,Switch,Vairable Declaration.</li>
+ </ul>
+</details>
  
 
 ---
