@@ -1,5 +1,7 @@
 # Javascript Output Based Question
 
+<details>
+ <summary>Notes for Javascript Operator </summary>
  <ul>
   
   **<li>if undefined tries to convert itself into number then it will converted into NaN(Not a number).</li>**
@@ -39,6 +41,8 @@
   <li>/null === null(true) undefined === undefined(true) null === undefined(false)</li>
 </ul>
 </ul>
+</details>
+ 
 
 ---
 **1. What will be the output**
