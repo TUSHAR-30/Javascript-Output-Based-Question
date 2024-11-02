@@ -324,16 +324,17 @@ console.log(lastName);
 ```js
 const person = {
   firstName: 'Tushar',
+  lastName:undefined,
 };
-const { firstName="John" } = person;
-console.log(lastName);
+const { firstName="John",lastName="Chawla" } = person;
+console.log(firstName,lastName);
 ```
 
 <details>
 <summary><b>View Answer</b></summary>
 <ul>	
-<li><b>Output</b> : Tushar</li>
-<li><b>Reason</b>  The `firstName` property in the `person` object has the value 'Tushar'. The default value "John" is ignored because it only applies when the property does not exist or is `undefined`
+<li><b>Output</b> : Tushar,Chawla</li>
+<li><b>Reason</b>  The `firstName` property in the `person` object has the value 'Tushar'. The default value "John" is ignored because it only applies when the property does not exist or is `undefined` and same reason for the lastName property.
 </li>
 </ul>
 </details>
