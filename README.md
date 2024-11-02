@@ -230,3 +230,46 @@ console.log(result)
 </details>
 
 **[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**11. What will be the output**
+```js
+const user={
+firstName:"John"
+}
+console.log(user.firstName)
+console.log(user["firstName"])
+console.log(user[firstName])
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : John,John,Reference Error</li>
+<li><b>Reason</b> user[firstName] expression will look into the global scope for variable firstName and will not able to find any variable with name firstName and thus gives us error.
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**11. What will be the output**
+```js
+let firstName="myName"
+const user={
+myName:"John"
+}
+console.log(user.myName)
+console.log(user["myName"])
+console.log(user[firstName])
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : John,John,John</li>
+<li><b>Reason</b> user[firstName] expression will look into the global scope for variable firstName and will be succedd in finding variable with name firstName and thus replace the firstName variable with "myName" and then look into the user object for the key myName and then gives us its value.
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
