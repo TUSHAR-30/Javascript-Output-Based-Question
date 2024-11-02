@@ -25,14 +25,6 @@
   <li> For > operator Both the operands will be converted into numbers in this case and then comparison of greater than or less than will take plac</li>
 </ul>
 
-**<li>Comparison == operator</li>**
-
-<ul>
-  <li>The == operator tries to make both the operands of same type if they are not of same type  i.e number type and then do compaison.</li>
-  <li>But null and undefined are two operands which will never be converted into numbers in == operator.</li>
-  <li>null==null , null==undefined , undefined == undefined (These are the true cases for null and undefined)</li>
-</ul>
-
 **<li>Comparison === operator</li>**
 
 <ul>
@@ -40,6 +32,40 @@
   <li>And there is no special case for null and undefined but it was there in == operator.</li>
   <li>/null === null(true) undefined === undefined(true) null === undefined(false)</li>
 </ul>
+
+**<li>Comparison == operator</li>**
+
+<ul>
+<!--   <li>The == operator tries to make both the operands of same type if they are not of same type  i.e number type and then do compaison.</li>
+  <li>But null and undefined are two operands which will never be converted into numbers in == operator.</li>
+  <li>null==null , null==undefined , undefined == undefined (These are the true cases for null and undefined)</li> -->
+ 
+ 1. If the types are the same:If both operands are of the same type, == simply checks for equality without any type conversion.
+Example: "5" == "5" is true, and 5 == 5 is true.
+
+2. If one operand is null and the other is undefined:
+JavaScript treats null and undefined as equal.
+So null == undefined is true, but they are not coerced to any other type.
+Example: null == undefined → true.
+
+3. If one operand is a number and the other is a string:
+JavaScript converts the string to a number and then performs the comparison.
+Example: 5 == "5" → true because "5" is converted to 5.
+
+4. If one operand is a boolean:
+JavaScript converts the boolean to a number (true to 1 and false to 0) and then performs the comparison.
+Example: true == 1 → true because true is converted to 1.
+
+5. If one operand is an object and the other is a primitive (number, string, etc.):
+JavaScript attempts to convert the object to a primitive using the object’s .valueOf() or .toString() methods.
+After converting the object to a primitive, JavaScript applies the comparison.
+Example: [1] == 1 → true because [1] is converted to "1", which then converts to 1.
+
+6. Special Case for NaN:
+NaN is never equal to anything, including itself.
+Example: NaN == NaN → false.
+</ul>
+
 </ul>
 </details>
 
