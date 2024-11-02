@@ -299,3 +299,43 @@ multiply(5,undefined);
 </details>
 
 **[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**14. What will be the output**
+```js
+const person = {
+  firstName: 'Tushar',
+};
+const { lastName="Chawla" } = person;
+console.log(lastName);
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : Chawla</li>
+<li><b>Reason</b> The lastName property is not defined in the person object and the destructuring syntax provides a default value ("Chawla") to be used when the property is missing.
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**15. What will be the output**
+```js
+const person = {
+  firstName: 'Tushar',
+};
+const { firstName="John" } = person;
+console.log(lastName);
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : Tushar</li>
+<li><b>Reason</b>  The `firstName` property in the `person` object has the value 'Tushar'. The default value "John" is ignored because it only applies when the property does not exist or is `undefined`
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
