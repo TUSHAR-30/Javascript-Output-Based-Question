@@ -182,3 +182,51 @@ console.log(typeof (5 - "5"));
 </details>
 
 **[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**8. What will be the output**
+```js
+const result=if(5>4)return "true"
+else return "false"
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : Syntax Error</li>
+<li><b>Reason</b> If else is a statement and we cannot store the result of it in a variable and if we try to store its result we will get syntax error.
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**9. What will be the output**
+```js
+let x=let y=5;
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : Syntax Error</li>
+<li><b>Reason</b> Variable Declaration is a statement and we cannot store the result of it in a variable and if we try to store its result we will get syntax error.
+</li>
+</ul>
+</details>
+
+**10. What will be the output**
+```js
+let result=5>4?"Hello World":"Hello India";
+console.log(result)
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : Hello World</li>
+<li><b>Reason</b> Ternary operator is an expression and thus we can store the result of it in a variable and we wil get Hello World here as output.
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
