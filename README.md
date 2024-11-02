@@ -5,7 +5,6 @@
  <ul>
   
   **<li>if undefined tries to convert itself into number then it will converted into NaN(Not a number).</li>**
-  **<li>If we do comparison of NaN with anyone then we will get false everytime.(EVEN IF WE DO COMPARISON OF NAN WITH NAN , WE WILL GET FALSE )</li>**
   **<li>if any of operand is object or array then they will be converted into primitive(number or string)</li>**  
  **<li> arithmetic + operator </li>**
  
@@ -82,6 +81,7 @@ Example: NaN == NaN → false.
  <summary>Weird things of JavaScript</summary>
  <ul>
   <li>The Boolean converstion of string which has only spaces is true and type conversion of  empty string is false.But if these both strings are converted into numbers then they both are converted to 0. For the empty string it is obvious but for the string with spaces it is a weird thing that why did it gets converted to 0 </li>
+  <li>  If we do comparison of NaN with anyone then we will get false everytime.(EVEN IF WE DO COMPARISON OF NAN WITH NAN , WE WILL GET FALSE )</li>
  </ul>
 </details>
  
