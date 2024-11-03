@@ -34,6 +34,58 @@
    <td>NaN</td>
   </tr>
  </table>
+
+ <table>
+  <tr>
+   <th></th>
+   <th>Boolean</th>
+   <th>String</th>
+   <th>Number</th>
+  </tr>
+  <tr>
+   <td>0</td>
+   <td>false</td>
+   <td>""</td>
+   <td>0</td>
+  </tr>
+  <tr>
+   <td>-0</td>
+   <td>false</td>
+   <td>"-0"</td>
+   <td>-0</td>
+  </tr>
+  <tr>
+   <td>1</td>
+   <td>true</td>
+   <td>"1"</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <td>-1</td>
+   <td>true</td>
+   <td>"-1"</td>
+   <td>-1</td>
+  </tr>
+  <tr>
+   <td>Infinity</td>
+   <td>true</td>
+   <td>"Infinity"</td>
+   <td>Infinity</td>
+  </tr>
+   <tr>
+   <td>-Infinity</td>
+   <td>true</td>
+   <td>"-Infinity"</td>
+   <td>-Infinity</td>
+  </tr>
+   <tr>
+   <td>NaN</td>
+   <td>false</td>
+   <td>"NaN"</td>
+   <td>NaN</td>
+  </tr>
+ </table>
+ 
 </details>
 
 <details>
