@@ -220,15 +220,17 @@ Example: NaN == NaN → false.
 <details>
  <summary>Statement vs Expression</summary>
  <ul>
-  <li>Expression:-We can store the result of Expression in a variable.example:-Ternary operator,Function Expression,Function Calling,Operator based expressions ,Array forEach Loop.</li>
+ <li>Expression:-We can store the result of Expression in a variable.example:-Ternary operator,Function Expression,Function Calling,Operator based expressions ,Array forEach Loop.</li>
   <li>Statement:-We can not store the result of Statement in a variable and if we try to do this we will get Error.examples:-IfElse statement,for loop,Switch,Vairable Declaration.</li>
  </ul>
+ 
 </details>
 
 <details>
  <summary>Weird things of JavaScript</summary>
  <ul>
-  <li>The Boolean converstion of string which has only spaces is true and type conversion of  empty string is false.But if these both strings are converted into numbers then they both are converted to 0. For the empty string it is obvious but for the string with spaces it is a weird thing that why did it gets converted to 0 </li>
+  
+  *<li>The Boolean converstion of string which has only spaces is true and type conversion of  empty string is false.But if these both strings are converted into numbers then they both are converted to 0. For the empty string it is obvious but for the string with spaces it is a weird thing that why did it gets converted to 0 </li>*
   <li>Boolean of [] is true but number conversion of [] is 0.It is because first the [] will be converted into string "" and the number conversion of empty string and string with only spaces is 0.</li>
   <li>  If we do comparison of NaN with anyone then we will get false everytime.(EVEN IF WE DO COMPARISON OF NAN WITH NAN , WE WILL GET FALSE )</li>
  </ul>
