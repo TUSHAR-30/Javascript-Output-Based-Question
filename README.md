@@ -101,8 +101,29 @@
   </tr>
   <tr>
    <td>undefined</td>
-   <td>true</td>
+   <td>false</td>
    <td>"undefined"</td>
+   <td>NaN</td>
+  </tr>
+ </table>
+
+ <table>
+  <tr>
+   <th></th>
+   <th>Boolean</th>
+   <th>String</th>
+   <th>Number</th>
+  </tr>
+  <tr>
+   <td>[]</td>
+   <td>true</td>
+   <td>""</td>
+   <td>0</td>
+  </tr>
+  <tr>
+   <td>{}</td>
+   <td>true</td>
+   <td>"[object Object]"</td>
    <td>NaN</td>
   </tr>
  </table>
