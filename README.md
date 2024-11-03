@@ -45,7 +45,7 @@
   <tr>
    <td>0</td>
    <td>false</td>
-   <td>""</td>
+   <td>"0"</td>
    <td>0</td>
   </tr>
   <tr>
