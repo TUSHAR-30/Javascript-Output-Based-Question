@@ -126,6 +126,24 @@
    <td>"[object Object]"</td>
    <td>NaN</td>
   </tr>
+  <tr>
+   <td>["1"]</td>
+   <td>true</td>
+   <td>"1"</td>
+   <td>1</td>
+  </tr>
+   <tr>
+   <td>["1","2"]</td>
+   <td>true</td>
+   <td>"1,2"</td>
+   <td><NaN/td>
+  </tr>
+   <tr>
+   <td>[1,"2",[3,4],5,6,[],7,8,{},{age:21}]</td>
+   <td>true</td>
+   <td>"1,2,3,4,5,6,,7,8,[object Object],[object Object]"</td>
+   <td>NaN</td>
+  </tr>
  </table>
  
 </details>
