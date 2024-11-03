@@ -85,6 +85,27 @@
    <td>NaN</td>
   </tr>
  </table>
+
+ <table>
+  <tr>
+   <th></th>
+   <th>Boolean</th>
+   <th>String</th>
+   <th>Number</th>
+  </tr>
+  <tr>
+   <td>null</td>
+   <td>false</td>
+   <td>"null"</td>
+   <td>0</td>
+  </tr>
+  <tr>
+   <td>undefined</td>
+   <td>true</td>
+   <td>"undefined"</td>
+   <td>NaN</td>
+  </tr>
+ </table>
  
 </details>
 
