@@ -1,21 +1,21 @@
 ---
-name: Bug(Question output & Output reason)
-about: This issue is related to some incorrect output or incorrect reason of Question.
-title: Bug in Output/Reason of a Question
-labels: question addition
+name: Bug(Typo Error in Question List)
+about: This issue is related to some typo error in Question List.
+title: Typing Error
+labels: ''
 assignees: ''
 
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is in which question.
+A clear and concise description of what the bug is.
 
 **To Reproduce**
 Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
-4. See bug
+4. See error
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
