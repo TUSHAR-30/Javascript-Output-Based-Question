@@ -1,5 +1,22 @@
 # Javascript Output Based Question
 
+---
+
+#### Click :star: if you like it!!
+Every contribution counts, regardless of its size. I value and appreciate the efforts of all contributors, from beginners to seasoned developers. Join me on this exciting journey of open-source collaboration. **Together, let's build something amazing!** :handshake:
+
+---
+
+#### Contribution Guidelines
+
+- :point_right: Please ensure that your contributions adhere to the coding style and guidelines of this project
+- :point_right: Include clear and concise commit messages for all your commits
+- :point_right: Provide a detailed description of your changes in the pull request.
+- :point_right: Be respectful and considerate towards other contributors.
+
+---
+
+
 <details>
  <summary>Type Conversion</summary>
  <table>
