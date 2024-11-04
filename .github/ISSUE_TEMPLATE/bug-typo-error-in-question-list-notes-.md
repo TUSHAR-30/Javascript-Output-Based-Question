@@ -2,7 +2,7 @@
 name: Bug(Typo Error in Question List/Notes)
 about: This issue is related to some typo error in Question List.
 title: Typing Error
-labels: ''
+labels: bug
 assignees: ''
 
 ---

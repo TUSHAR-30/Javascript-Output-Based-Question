@@ -2,7 +2,7 @@
 name: Bug(Question output & Output reason)
 about: This issue is related to some incorrect output or incorrect reason of Question.
 title: Bug in Output/Reason of a Question
-labels: question addition
+labels: bug
 assignees: ''
 
 ---

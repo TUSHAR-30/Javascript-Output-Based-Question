@@ -2,7 +2,7 @@
 name: Question Additon Request
 about: Addtion of question and its corresponding output and reason for question output.
 title: Want to Add a new question to the list
-labels: question addition
+labels: documentation, question addition
 assignees: ''
 
 ---

@@ -2,7 +2,7 @@
 name: Addition in the Notes
 about: This issue is related to the addition of more information to the notes.
 title: Notes Addition
-labels: ''
+labels: documentation
 assignees: ''
 
 ---

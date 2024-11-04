@@ -3,7 +3,7 @@ name: Bug(Notes)
 about: This issue is related to some incorrect notes or wrong description present
   in the notes.
 title: Wrong information present in the Notes.
-labels: ''
+labels: bug
 assignees: ''
 
 ---
