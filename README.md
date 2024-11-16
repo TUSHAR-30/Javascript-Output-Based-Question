@@ -542,3 +542,64 @@ console.log(firstName,lastName);
 </details>
 
 **[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**16. What will be the output**
+```js
+function changeAgeAndReference(person) {
+    person.age = 25;
+    person = {
+      name: 'John',
+      age: 50
+    };
+
+    return person;
+}
+
+const personObj1 = {
+    name: 'Alex',
+    age: 30
+};
+
+const personObj2 = changeAgeAndReference(personObj1);
+
+console.log(personObj1); // -> ?
+console.log(personObj2); // -> ?
+
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : { name: 'Alex', age: 25 }
+{ name: 'John', age: 50 }
+</li>
+<li><b>Reason</b> The function first changes the property age on the original object it was passed in. It then reassigns the variable to a brand new object and returns that object. Here’s what the two objects are logged out.
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**17. What will be the output**
+```js
+let person = { name: 'Lydia' };
+const members = [person];
+person=null
+
+console.log(members);
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : { name: 'Lydia' }</li>
+<li><b>Reason</b> When you assign an object (e.g., person) to another variable or include it in an array, only the reference to the object is stored, not the object itself.
+ In this case, members[0] holds a reference to the person object.
+ This does not affect the actual object that person originally referenced.
+ It only reassigns the person variable to null, breaking the reference between person and the object. The object { name: 'Lydia' } itself still exists in memory as long as something else (like the members array) holds a reference to it.
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
+
