@@ -668,3 +668,64 @@ obj.func3();
 </ul>
 </details>
 
+**[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**20. What will be the output**
+```js
+const obj={
+    firstName:this,
+    pata:{
+        pinCode:this,
+        moreDetails:function(){
+            console.log(this)
+        }
+    }
+}
+
+console.log(obj.firstName)
+console.log(obj.pata.pinCode)
+console.log(obj.pata.moreDetails())
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : <div>Window {window: Window, self: Window, document: document, name: '', location: Location, …}, </div> <div>Window {window: Window, self: Window, document: document, name: '', location: Location, …},</div> <div>{pinCode: Window, moreDetails: ƒ}</div></li>
+<li><b>Reason</b> Reason to be published.
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
+
+**21. What will be the output**
+```js
+function demo(){
+    const obj={
+        firstName:this,
+        address:{
+            pata:this
+        },
+        findBlood(){
+            console.log(this)
+            return ""
+        }
+    }
+    console.log(obj.firstName)
+    console.log(obj.address.pata)
+    console.log(obj.findBlood())
+}
+demo()
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : <div>Window {window: Window, self: Window, document: document, name: '', location: Location, …}, </div> <div>Window {window: Window, self: Window, document: document, name: '', location: Location, …},</div> <div>{firstName: Window, address: {…}, findBlood: ƒ}</div></li>
+<li><b>Reason</b> Reason to be published.
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
+
