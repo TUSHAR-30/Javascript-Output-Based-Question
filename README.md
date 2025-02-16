@@ -592,7 +592,7 @@ console.log(members);
 <details>
 <summary><b>View Answer</b></summary>
 <ul>	
-<li><b>Output</b> : { name: 'Lydia' }</li>
+<li><b>Output</b> : [{ name: 'Lydia' }]</li>
 <li><b>Reason</b> <div>When you assign an object (e.g., person) to another variable or include it in an array, only the reference to the object is stored, not the object itself.</div>
  <div>In this case, members[0] holds a reference to the person object.
  This does not affect the actual object that person originally referenced.
@@ -630,7 +630,7 @@ obj.func3();
 <ul>	
 <li><b>Output</b> : local func1,global func1,ReferenceError: func2 is not defined</li>
 <li><b>Reason</b><div>We need to keep one thing in our mind that the properites of object can be access either using dot notation or bracket notation.</div>
-<div>So,in this code the 1st console statement result is understandable.Now after that we try to call func1() method the js will look for thsi func1 method inside the func3 scope and here it will not able to find it ,so it will check func1 in global scope directly and will call the global func1 function.</div><div> Now for the func2() call , the js will neither able to find fuc2 in func3 scope nor in global scope so it will give error that func2 is not defined.</div>
+<div>So,in this code the 1st console statement result is understandable.Now after that we try to call func1() method the js will look for this func1 method inside the func3 scope and here it will not able to find it ,so it will check func1 in global scope directly and will call the global func1 function.</div><div> Now for the func2() call , the js will neither able to find fuc2 in func3 scope nor in global scope so it will give error that func2 is not defined.</div>
 </li>
 </ul>
 </details>
