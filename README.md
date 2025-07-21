@@ -729,3 +729,24 @@ demo()
 
 **[Scroll to Top](#Javascript-Output-Based-Question)**
 
+**22. What will be the output**
+```js
+ var a=5;
+ var a=10
+ var a;
+ console.log(a)
+```
+
+<details>
+<summary><b>View Answer</b></summary>
+<ul>	
+<li><b>Output</b> : <div>10</div></li>
+<li><b>Reason</b> 
+ <div>var a; → Redundant declaration only → ignored.</div>
+ <div>var a = 10; → Redundant declaration + assignment → declaration ignored, but assignment is executed.</div>
+</li>
+</ul>
+</details>
+
+**[Scroll to Top](#Javascript-Output-Based-Question)**
+
